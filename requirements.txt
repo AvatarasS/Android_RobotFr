@@ -1,0 +1,10 @@
+pyyaml>=6.0
+robotframework>=6.1
+robotframework-appiumlibrary>=1.6.3
+robotframework-imaplibrary2>=0.4.2
+robotframework-metrics>=3.3.3
+robotframework-requests>=0.9.5
+robotframework-seleniumlibrary>=5.1.0
+robotframework-tidy>=2.2
+PyJWT>=2.3.0
+webdriver-manager>=3.8.6
