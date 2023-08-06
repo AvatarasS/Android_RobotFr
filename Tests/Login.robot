@@ -2,10 +2,10 @@
 
 Library    AppiumLibrary
 
-Resource   ../Resources/load.robot
+Resource   ../Resources/ConfigManagement.robot
 Resource   ../Resources/android-res.robot
 
-Suite Setup         load.Default Suite Setup
+Suite Setup         ConfigManagement.Default Suite Setup
 
 *** Test Cases ***
 
