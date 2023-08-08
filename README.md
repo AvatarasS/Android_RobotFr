@@ -1,8 +1,8 @@
-# Chat21 Application Testing with Robot Framework
+# Testing with Robot Framework
 
 ### Overview
 
-This repository contains test scripts and resources for testing the Chat21 application using Robot Framework. The purpose of these tests is to ensure the functionality, reliability, and performance of the Chat21 application across various scenarios.
+This repository contains test scripts and resources for UI, API and Mobile (Android) testing using Robot Framework.
 
 ## Setup
 Install dependecies
@@ -14,16 +14,16 @@ py requirements.py
 * Run tests
 
 ```
-robot -d Output -i 001 -v ENV:TARAS Tests\Login.robot
+robot -d Output -i 01_001 -v ENV:TARAS Tests\Login.robot
 ```
 Where :
 * `-i 001` - Run tests with tag "001"
 * `-v ENV:TARAS` - Name of the ENV file "MAIN"
-* `Tests\Login.robot` - Name of the folder where all tests are located
+* `Tests` - Name of the folder where all tests are located
 
 If you want to run all tests use:
 ```
-robot -d Output -i run_all -v ENV:TARAS Tests\Login.robot
+robot -d Output -i run_all -v ENV:TARAS Tests
 ```
 
 ## Test Reports
