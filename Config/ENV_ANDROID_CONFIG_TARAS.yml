@@ -1,0 +1,23 @@
+# *** Open Application Main ***
+HOST_MAIN: http://localhost:4723
+DEVICE_NAME: emulator-5554
+21CHAT_APP_PACKAGE: chat21.android.demo
+21CHAT_APP_ACTIVITY: chat21.android.demo.SplashActivity
+
+# *** Android 10 Variables ***
+ANDROID14_CONTINUE_BUTTON: id=com.android.permissioncontroller:id/continue_button
+ANDROID14_OK_BUTTON: //android.widget.Button[@text='OK']
+
+# *** Login Page ***
+APP_TITLE: chat21.android.demo:id/toolbar
+LOGIN_EMAIL_FIELD: chat21.android.demo:id/email
+LOGIN_PASSWORD_FIELD: chat21.android.demo:id/password
+LOGIN_BTN: chat21.android.demo:id/login
+
+# *** Main Page ***
+MAIN_HOME_TAB: //android.widget.TextView[@text="HOME"]
+MAIN_PROFILE_TAB: //android.widget.TextView[@text="PROFILE"]
+
+# *** Profile Page ***
+LOGOUT_BTN: chat21.android.demo:id/logout
+

@@ -1,0 +1,25 @@
+
+
+MAIN_UNIV_PAGE_URL: https://webdriveruniversity.com/
+API_URL: https://reqres.in
+
+# *** Contact Us form Data ***
+CONTACT_US_DATA:
+  USER_NAME: Taras
+  USER_LAST_NAME: Ivanov
+  USER_EMAIL: ivanov@gmail.com
+  COMMENT_FIELD: Mail to me!!!
+  SUBMITTING_MESSAGE: Thank You for your Message!
+
+# *** Contact us Page ***
+CONTACT_US_BTN_LOCATOR: id:contact-us
+FIRST_NAME_FIELD: name:first_name
+LAST_NAME_FIELD: name:last_name
+EMAIL_FIELD: name:email
+COMMENTS_FIELD: name:message
+SUBMIT_BTN: xpath://*[@id="form_buttons"]/input[2]
+
+# *** To Do List ***
+TO_DO_LIST_BTN_LOCATOR: id:to-do-list
+TRASH_BTN: xpath://*[@id="container"]/ul/li[3]/span/i
+INPUT_NEW_TODO: xpath://*[@id="container"]/input
