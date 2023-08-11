@@ -1,6 +1,6 @@
 # *** Open Application Main ***
 HOST_MAIN: http://localhost:4723
-DEVICE_NAME: ANDROID
+PLATFORM_NAME: ANDROID
 DEVICE_NAME: emulator-5554
 21CHAT_APP_PACKAGE: chat21.android.demo
 21CHAT_APP_ACTIVITY: chat21.android.demo.SplashActivity
