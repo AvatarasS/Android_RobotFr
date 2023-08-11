@@ -8,7 +8,7 @@ This repository contains test scripts and resources for UI, API and Mobile (Andr
 Install dependecies
 
 ```
-py requirements.py
+py instal_requirements.py
 ```
 ## Usage
 * Run tests
