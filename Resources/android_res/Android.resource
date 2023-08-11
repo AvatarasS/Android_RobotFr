@@ -5,7 +5,13 @@ Library    AppiumLibrary
 *** Keywords ***
 
 Open Chat21 App
-    Open Application     ${HOST_MAIN}   platformName=Android    deviceName=${DEVICE_NAME}    appPackage=${21CHAT_APP_PACKAGE}   appActivity=${21CHAT_APP_ACTIVITY}   automationName=UiAutomator2
+    ${capabilities}=    Create Dictionary
+    ...     platformName=${PLATFORM_NAME}
+    ...     deviceName=${DEVICE_NAME}
+    ...     appPackage=${21CHAT_APP_PACKAGE}
+    ...     appActivity=${21CHAT_APP_ACTIVITY}
+    ...     automationName=${AUTOMATION_NAME}
+    Open Application     ${HOST_MAIN}   ${capabilities}
     Run Keyword          Bypass Android 14 Alert
 
 
