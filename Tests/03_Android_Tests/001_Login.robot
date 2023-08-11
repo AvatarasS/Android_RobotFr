@@ -2,7 +2,7 @@
 
 Library    AppiumLibrary
 
-Resource   ../../Resources/android_res/android-res.resource
+Resource   ../../Resources/android_res/Android.resource
 Resource   ../../Resources/android_res/ConfigManagement.resource
 
 Suite Setup         ConfigManagement.Default Suite Setup
